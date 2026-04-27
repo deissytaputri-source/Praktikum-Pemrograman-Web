@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Form Pendaftaran Kursus</title>
+</head>
+
+<body style="background-color:pink;">
+
+<form style="width:400px; margin:auto; background-color:#ffc0cb; padding:15px; border:2px solid black;">
+
+    <h2 align="center" style="background-color:#ff69b4; padding:10px;">Pendaftaran Kursus</h2>
+
+    <fieldset style="background-color:#ffe4e1;">
+        <legend><b>Data Diri</b></legend>
+
+        Nama : <input type="text" name="nama"><br><br>
+        Nim : <input type="text" name="nim"><br><br>
+        E-mail : <input type="text" name="email"><br><br>
+        Tanggal Lahir : <input type="date" name="tgl"><br><br>
+
+        Jenis Kelamin :
+        <input type="radio" name="jk" value="L"> Laki-laki
+        <input type="radio" name="jk" value="P"> Perempuan
+        <br><br>
+
+        Pilih Program Kursus :
+        <br>
+        <input type="checkbox" name="kursus" value="C#"> C#<br>
+        <input type="checkbox" name="kursus" value="Java"> Java<br>
+        <input type="checkbox" name="kursus" value="SQL"> SQL<br>
+        <input type="checkbox" name="kursus" value="HTMLPHP"> HTML dan PHP<br><br>
+
+        Pilihan Hari/Jam Kursus :
+        <select name="jadwal">
+            <option>Senin - Rabu / 09.00 - 11.00</option>
+            <option>Selasa - Kamis / 13.00 - 15.00</option>
+            <option>Sabtu / 09.00 - 12.00</option>
+        </select>
+
+    </fieldset>
+
+    <br>
+
+    <div style="background-color:#ffb6c1; padding:10px;">
+        Komentar Anda : <br>
+        <textarea cols="40" rows="5"></textarea>
+    </div>
+
+    <br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    <input type="button" value="Cancel">
+
+</form>
+
+</body>
+</html>
